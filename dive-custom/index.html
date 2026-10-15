@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AQUA LUMINA</title>
+    <meta name="description" content="MdN DIVEは千代田区にあるマンツーマンダイビングスクールです。5/31までWeb限定キャンペーンを実施中!">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="img/logo.png" alt="ロゴ">
+        </h1>
+    </header>
+
+    <main>
+        <div class="mv-area">
+            <img src="img/TOP.png" alt="夜の海に会いに行こう。">
+        </div>
+
+        <section>
+            <div class="section-inner">
+                <h2>ABOUT AQUA LUMINA</h2>
+                <p>AQUA LUMINAは「夜の海」をテーマにした水族館です。
+                    光・音・映像が融合した幻想的な空間で、
+                    生き物たちの新しい魅力に出会えます。</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-inner">
+                <h2>EXHIBITION</h2>
+                <!-- <ol>
+                    <li>クラゲの海</li>
+                    <li>マンタの泳ぐ海</li>
+                    <li>深海の世界</li>
+                    <li>チンアナゴの庭</li>
+                </ol> -->
+                <table>
+                    <tr>
+                        <th>クラゲの海</th>
+                        <td>揺らめく光に包まれる、幻想的なクラゲの世界。</td>
+                    </tr>
+                    <tr>
+                        <th>マンタの泳ぐ海</th>
+                        <td>大きな翼を広げて泳ぐマンタの姿を観察。</td>
+                    </tr>
+                    <tr>
+                        <th>深海の世界</th>
+                        <td>神秘的で、不思議な深海生物との出会い。</td>
+                    </tr>
+                    <tr>
+                        <th>チンアナゴの庭</th>
+                        <td>砂の中から顔を出す、愛らしい生き物。</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-inner">
+                <h2>申し込みフォーム</h2>
+                <form action="program.php" method="post">
+                    <dl>
+                        <dt><label for="user-name">氏名</label></dt>
+                        <dd><input type="text" id="user-name" name="user-name"></dd>
+
+                        <dt><label for="user-email">メールアドレス</label></dt>
+                        <dd><input type="text" id="user-email" name="user-email"></dd>
+
+                        <dt>年間パスポートをお持ちですか？</dt>
+                        <dd>
+                            <input type="radio" id="swim-yes" name="swim" value="はい">
+                            <label for="swim-yes">はい</label>
+
+                            <input type="radio" id="swim-no" name="swim" value="いいえ">
+                            <label for="swim-no">いいえ</label>
+                        </dd>
+                    </dl>
+
+                    <div class="form-submit">
+                        <button type="submit" id="submit" name="submit">申し込む</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <div class="form-img-area">
+            <img src="img/LAST.png" alt="   マンタ">
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            〒101-0051 <br>
+            東京都千代田区神田神保町1丁目105 <br>
+            00-0000-0000 <br>
+            株式会社AQUA LUMINA
+        </address>
+
+        <small>&copy; MdN Corporation.</small>
+    </footer>
+</body>
+
+</html>
